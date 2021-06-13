@@ -1,0 +1,7 @@
+Metodologia;112;0;0
+Actuación Profesional;220;275;0
+Comercio Electronico;520;175;0
+Sistemas de datos;191;456;0
+Gestion de Recursos Informaticos; 363;340;130
+Redes Informaticas;657;740;123
+Construccion de aplicaciones informaticas;652;112;520

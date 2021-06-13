@@ -1,0 +1,5 @@
+1;Sistemas de Información
+2;Administración
+3;Actuario
+4;Contador Público
+5;Economía

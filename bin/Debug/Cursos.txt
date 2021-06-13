@@ -1,0 +1,61 @@
+112;11;Perez Gastón;lu/jue;9a11;cordoba
+112;12;Diaz Carmen;ma/vie;7a9;cordoba
+112;13;Vacca Juliana;lu/jue;15a17;cordoba
+220;20;Latorre Mariano;ma/vie;19a21;san isidro
+220;21;Salcedo Manuel;lu/jue;11a13;san isidro
+220;23;Diaz Juan Carlos;ma/vie;9a11;cordoba
+220;25;Dominguez Gastón;ma/vie;13a15;cordoba
+191;11;Sanchez Juan Pablo;lu/jue;7a9;san isidro
+191;15;Cardozo Maria Laura;ma/vie;19a21;san isidro
+191;16;Gonzales Pedro;lu/jue;9a11;cordoba
+191;17;Alvarez Claudio;lu/jue;17a19;san isidro
+363;22;Villa Marcelo;lu/jue;11a13;cordoba
+363;28;Benavidez Silvia;lu/jue;9a11;san isidro
+363;30;Cáceres Paula;lu/jue;9a11;san isidro
+363;31;Dittelo Agustin;lu/jue;9a11;san isidro
+520;11;Ramirez Jesus;lu/jue;9a11;cordoba
+520;12;Diaz Federico;lu/jue;9a11;cordoba
+520;13;Wolz Nelida;vie;15a17;cordoba
+520;15;Navarro Cecilia;vie;19a21;san isidro
+657;33;Franchi Pablo;vie;15a17;cordoba
+657;35;Arce Raul;jue;11a13;cordoba;
+657;36;Gomez Ana Maria;lu/jue;7a9;cordoba
+657;38;Alcaín Sebastian;ma/vi;19a21;san isidro
+652;55;Calvo Julian;ma/vi;19a21;cordoba
+652;56;Paz Claudia;lu/jue;7a9;san isidro
+650;57;Garcia Tomas;lu/jue;7a9;cordoba
+650;60;Gimenez Gaston;ma/vie;7a9;cordoba
+650;62;Echeverria Monica;lu/jue;21a23;san isidro
+472;11;Lopardo Federico;lu/jue;19a21;cordoba
+472;12;Barrera Ana Paula;lu/jue;17a19;san isidro
+472;13;Fernandez Lucia;ma/vie;15a17;Paternal
+459;15;Lucero Mariano;ma/vie;19a21;cordoba
+459;18;Moreno Agustin;ma/vie;9a11;cordoba
+459;22;Sanchez Mónica;lu/jue;17a19;san isidro
+422;63;Bonelli Martin;lu/jue;19a21;cordoba
+422;64;Diaz Gaston;lu/jue;15a17;cordoba
+422;66;Mazza Mariana;ma/vie;13a15;cordoba
+601;33;Nuñez Matias;ma/vie;11a13;san isidro
+601;34;Garro Daniel;ma/vie;15a17;cordoba
+601;35;Aguirre Susana;lu/jue/;15a17;cordoba
+601;40;Saravia Adriana;lu/jue;7a9;cordoba
+277;10;Barros Juan;lu/jue;7a9;cordoba
+277;11;Marquez Lorena;ma/vi;19a21;cordoba
+455;74;Mendez Carlos;lu/jue;11a13;cordoba
+455;75;Viamonte Lucas;ma/vie;19a21;cordoba
+457;20;Barrera Juan;lu/ju;13a15;cordoba
+457;40;Meli Sabrina;ma/vie;9a11;san isidro
+457;43;Salerno Marina;lu/ju;19a21;cordoba
+458;14;Garcia Mariana;ma/vi;15a17;cordoba
+551;72;Benelli Jonathan;lu/jue;19a21;san isidro
+559;16;Simone Veronica;lu/jue;7a9;cordoba
+561;21;Gutierrez Lara;ma/vie;19a21;san isidro
+752;10;Gomez Osvaldo;lu/jue;17a19;san isidro
+753;41;Morena Juana;ma/vie;9a11;cordoba
+754;54;Calleri Sofía;lu/jue;19a21;cordoba
+777;29;Franco Alberto;ma/vie;9a11;cordoba
+888;37;Laporta Ismael;lu/jue;17a19;san isidro
+997;16;Bartome Juan;ma/vie;11a13;cordoba
+998;37;Seilan Emilia;lu/jue;19a21;cordoba
+444;84;Rediopli Laura;ma/vie;7a9;cordoba
+555;52;Ledesma Sol;lu/jue;19a21;cordoba

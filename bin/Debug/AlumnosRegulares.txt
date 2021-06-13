@@ -1,0 +1,12 @@
+888067;Ivanna;Figueroa
+888528;Agustina;Bustelo
+888781;Rodrigo;González
+888888;Juan;Perez
+888000;Romina;Lopez
+888444;Victoria;Segre
+888222;Diego;Zamora
+888333;Rocío;Fabri
+888777;Sol;Sanchez
+888999;Ramon;Loite
+888555;Mariano;Palacios
+888666;Alfredo;García

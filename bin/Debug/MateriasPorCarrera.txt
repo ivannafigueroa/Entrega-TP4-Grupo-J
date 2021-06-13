@@ -1,0 +1,46 @@
+Metodologia;112;6;Actuario
+Metodologia;112;6;Administración
+Metodologia;112;6;Sistemas de Información
+Actuacion Profesional;220;4;Economía
+Sistema de datos;191;6;Economía
+Gestion de Recursos Informaticos;363;4;Contador Público
+Comercio Electronico;520;4;Actuario
+Redes Informaticas;657;4;Economía
+Construccion de aplicaciones informaticas;652;4;Sistemas de Información
+Calculo Financiero;276;4;Contador Público
+Calculo Financiero;276;4;Administración
+Calculo Financiero;276;4;Sistemas de Información
+Econometria;551;6;Economía
+Historia del pensamiento economico;553;4;Economía
+Comercialización;456;6;Administración
+Estadística para administradores;451;4;Administración
+Auditoria;355;6;Contador Público
+Sistemas de costos;353;4;Contador Público
+Matematica para economistas;288;6;Actuario
+Análisis Numerico;752;4;Actuario
+Gestion y costos;277;6;Actuario
+Gestion y costos;277;6;Administración
+Gestion y costos;277;6;Economía
+Gestion y costos;277;6;Sistemas de Información
+Gestion y costos;277;6;Contador Público
+Régimen tributario;455;6;Economía
+Régimen tributario;455;6;Actuario
+Régimen tributario;455;6;Administración
+Régimen tributario;455;6;Contador Público
+Teoría de la decisión;457;6;Administración
+Teoría de la decisión;457;6;Actuario
+Teoría de la decisión;457;6;Sistemas de Información
+Teoría de la decisión;457;6;Contador Público
+Teoría de la decisión;457;6;Economía
+Planeamiento a largo plazo;458;4;Administración
+Desarrollo económico;559;6;Economía
+Cuentas nacionales;561;4;Economía
+Análisis numérico;752;6;Actuario
+Biometría actuarial;753;6;Actuario
+Teoría actuarial;754;6;Actuario
+Contabilidad financiera;777;6;Contador Público
+Sistemas administrativos;888;6;Contador Público
+Impuestos I;997;6;Contador Público
+Impuestos II;998;6;Contador Público
+Teoría lenguajes;444;6;Sistemas de Información
+Auditoría sistemas;555;6;Sistemas de Información
