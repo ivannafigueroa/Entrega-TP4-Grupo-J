@@ -1,0 +1,340 @@
+PLAN DE PRUEBAS - GRUPO J
+
+
+1)Registro correcto:
+
+Ingrese su nro registro antes de empezar: 888444
+
+Se encuentra cursando las últimas 4 materias?: N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 112
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888444.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2)Selección de materia con curso alternativo:
+
+Ingrese su nro registro antes de empezar: 888444
+
+Se encuentra cursando las últimas 4 materias?: N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 112
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? S
+
+Ingrese el código del curso alternativo al que desea inscribirse: 12
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888444 con dos cursos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3)Selección de tres materias sin cursos alternativos:
+
+Ingrese su nro registro antes de empezar: 888444
+
+Se encuentra cursando las últimas 4 materias?: N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 112
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 277
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 10
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 457
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 20
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888444 con tres cursos.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) Se cargan los cursos pero no se confirma la solicitud
+
+Ingrese su nro registro antes de empezar: 888555
+
+Se encuentra cursando las últimas 4 materias? N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 112
+
+Desea agregar otra materia aprobada? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 277
+
+Desea agregar otra materia aprobada? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 520
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? S
+
+Ingrese el código del curso alternativo al que desea inscribirse: 12
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? N
+
+(Se muestra mensaje de confirmación )Su solicitud fue cancelada. Presione ENTER para salir.
+
+Resultado esperado: no se genera ningún registro en archivo "Solicitud_Inscripcion" para el nro 888555.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5) Se ingresa un registro incorrecto
+
+Ingrese su nro registro antes de empezar: hola
+
+(Error) No se ingresó un número válido. Por favor, intentar nuevamente: 109829492
+
+(Error) El codigo ingresado debe estar dentro del rango permitido (1-999999): 888067
+
+Se encuentra cursando las últimas 4 materias? N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 112
+
+Desea agregar otra materia aprobada? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 277
+
+Desea agregar otra materia aprobada? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 520
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: Se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888067.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) Se ingresa una carrera incorrecta: 
+
+Ingrese su nro registro antes de empezar: 888067
+
+Se encuentra cursando las últimas 4 materias? N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: 12354
+
+(Error) La carrera ingresada no es válida. Por favor, elegir una de las mostradas arriba : Anatomía
+
+(Error) La carrera Anatomía no existe. Verificar que el ingreso sea correcto : Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 112
+
+Desea agregar otra materia aprobada? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 277
+
+Desea agregar otra materia aprobada? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 520
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: Se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888067.
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7)Selección de cuatro materias sin estar en las últimas 4 de la carrera:
+
+Ingrese su nro registro antes de empezar: 888067
+
+Se encuentra cursando las últimas 4 materias?: N
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Actuario
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 112
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 11
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 277
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 10
+
+Desea agregar curso alternativo? N
+
+Desea agregar otra materia a la solicitud? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 457
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 20
+
+Desea agregar curso alternativo? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: se genera un registro en archivo "Solicitud_Inscripcion" para el nro 888067 con tres cursos (sin dejar que se inscriba a un cuarto curso).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8) Se encuentra en las últimas 4 materias pero solo se inscribe a una: 
+
+Ingrese su nro registro antes de empezar: 888067
+
+Se encuentra cursando las últimas 4 materias? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 191
+
+Desea agregar otra materia aprobada? S
+
+(muestra materias de la carrera elegida) Ingresar el código de una materia que ya hayas aprobado: 553
+
+Desea agregar otra materia aprobada? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 220
+
+(muestra cursos disponibles)Ingrese el código del curso al que desea inscribirse: 20
+
+Desea agregar curso alternativo? S
+
+Ingrese el código del curso alternativo al que desea inscribirse: 21
+
+Desea agregar otra materia a la solicitud? N
+
+(Se muestra cursos elegidos) Desea confirmar la solicitud? S
+
+(Se muestra mensaje de confirmación )Se generó el comprobante de inscripción correctamente
+
+Resultado esperado: Se genera registro en archivo "Solicitud_Inscripcion" para el nro 888067 con una sola materia.
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9) Desea inscribirse a una materia sin cumplir con las correlativas: 
+
+Ingrese su nro registro antes de empezar: 888067
+
+Se encuentra cursando las últimas 4 materias? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Economía
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 220
+
+(Error )No tiene la correlativa 191 necesaria para cursar esa materia. Elija otra.
+
+(Error) No tiene la correlativa 553 necesaria para cursar esa materia. Elija otra.
+
+Resultado esperado: No pues generar la solicitud para esa materia hasta aprobar la 191 y la 553
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10) Desea inscribirse a una materia sin cumplir con las correlativas: 
+
+Ingrese su nro registro antes de empezar: 888067
+
+Se encuentra cursando las últimas 4 materias? S
+
+(muestra carreras disponibles)Ingrese el nombre de la carrera en la que se inscribirá: Administración
+
+(Validación de materias aprobadas) Ya aprobó materias previamente? N
+
+(muestra materias disponibles)Ingrese el código de materia a la que desea inscribirse: 451
+
+(Error )No tiene la correlativa 456 necesaria para cursar esa materia. Elija otra.
+
+(Error) No tiene la correlativa 455 necesaria para cursar esa materia. Elija otra.
+
+Resultado esperado: No pues generar la solicitud para esa materia hasta aprobar la 456 y la 455
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
