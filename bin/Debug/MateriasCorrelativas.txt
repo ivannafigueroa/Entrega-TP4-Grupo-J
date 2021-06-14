@@ -1,7 +1,18 @@
 Metodologia;112;0;0
-Actuación Profesional;220;275;0
-Comercio Electronico;520;175;0
-Sistemas de datos;191;456;0
-Gestion de Recursos Informaticos; 363;340;130
-Redes Informaticas;657;740;123
-Construccion de aplicaciones informaticas;652;112;520
+Actuación Profesional;220;191;553
+Comercio Electronico;520;112;277
+Sistemas de datos;191;277;553
+Gestion de Recursos Informaticos;363;276;353
+Redes Informaticas;657;277;457
+Construccion de aplicaciones informaticas;652;112;444
+Calculo Financiero;276;277;0
+Econometria;551;553;277
+Historia del pensamiento economico;553;0;0
+Comercialización;456;112;277
+Estadística para administradores;451;456;455
+Auditoria;355;276;0
+Gestion y costos;277;112;0
+Régimen tributario;455;0;0
+Teoría de la decisión;457;0;0
+Impuestos I;997;276;277
+Impuestos II;998;997;0
